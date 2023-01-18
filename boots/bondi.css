@@ -1,0 +1,84 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #eee;
+    padding: 10px;
+}
+ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+ul{
+    background-color: black;
+    color: white;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+.html,
+.Connexion{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.html h1{
+    margin-top: 70px;
+}
+
+.html span a {
+    text-decoration:none;
+    display: block;
+    width: 150px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: black;
+
+}
+.html span  {
+    margin: auto;
+}
+@media (max-width:576px){
+    .html div span,
+    .html p{
+        display: none;
+    }
+    .html h1{
+        margin-top:10px;
+    }
+    .Connexion{
+        margin-top: 10px;
+    }
+    ul li {
+    padding: 10px;
+    text-align: start;
+    }
+    ul li a{
+        border-radius: 10px;
+        padding: 10px;
+        text-align: start;
+    }
+    ul li:hover a{
+        background-color: white;
+        color:black;
+    }
+    .html{
+        border:none ;
+    }
+    .html:hover{
+        border: 1px solid rgb(110,117,180);
+        border-radius: 5px;
+        background-color: rgb(212,215,238);
+        cursor: pointer;
+    }
+}
+.Connexion  a {
+    text-decoration: none;
+    color:black;
+}
